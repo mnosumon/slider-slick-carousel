@@ -3,11 +3,9 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import "./bootstrapMultiCarousel.css";
 import { MdFavoriteBorder } from "react-icons/md";
-
 import { FaArrowRight, FaArrowLeft } from "react-icons/fa";
-import { FcRating } from "react-icons/fc";
 import { multiData } from "../MultiData";
-// import { Rating } from "@mui/material";
+import { Rating } from "@mui/material";
 
 const PreviousBtn = (props) => {
   console.log(props);
@@ -86,7 +84,7 @@ const Card = ({ item }) => {
       >
         Top Trending Tvs
       </p>
-      <FcRating precision={0.5} size="small" />
+      <Rating precision={0.5} size="small" />
       <p>
         <span
           style={{
